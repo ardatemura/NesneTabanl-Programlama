@@ -1,4 +1,4 @@
-Projeye Genel Bakış Seyehat Uygulaması
+🚀Projeye Genel Bakış Seyehat Uygulaması
 
 
  🖱️ Admin Paneli:Pyqt5 "Pyhton" tabanlı kılanıcıların bilgilerini kulanıcı panelinin tüm değişkenlerinin kontrolerinin yapılabilirliğinin olduğu basit bir admin paneli sistmi.
