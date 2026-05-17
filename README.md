@@ -8,5 +8,6 @@ Projeye Genel Bakış Seyehat Uygulaması
 
  Kullanılan Teknolojiler ve Uygulamalar
  
-.PyQt5
-.Pyhton
+⚪PyQt5
+
+⚫Pyhton
