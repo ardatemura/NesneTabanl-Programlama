@@ -1,30 +1,23 @@
-graph TD
-    %% Stil Tanımlamaları (GitHub Canlı Renkleri)
-    classDef login fill:#4F46E5,stroke:#333,stroke-width:2px,color:#fff;
-    classDef brain fill:#06B6D4,stroke:#333,stroke-width:2px,color:#fff;
-    classDef core fill:#10B981,stroke:#333,stroke-width:2px,color:#fff;
-    classDef detail fill:#F59E0B,stroke:#333,stroke-width:2px,color:#fff;
-    classDef action fill:#EF4444,stroke:#333,stroke-width:2px,color:#fff;
-    classDef admin fill:#EC4899,stroke:#333,stroke-width:2px,color:#fff;
+graph LR
+    %% Renk Renklendirmeleri
+    classDef gate fill:#2e3440,stroke:#81a1c1,stroke-width:2px,color:#d8dee9;
+    classDef core fill:#3b4252,stroke:#88c0d0,stroke-width:2px,color:#e5e9f0;
+    classDef map fill:#434c5e,stroke:#a3be8c,stroke-width:2px,color:#e5e9f0;
+    classDef calc fill:#4c566a,stroke:#ebcb8b,stroke-width:2px,color:#e5e9f0;
 
-    A[👋 1. Giriş Ekranı] -->|Rol Seçimi: Guest / User / Admin| B(🧠 2. Merkezi State / Hafıza)
+    A[🔑 Giriş Paneli] -->|Rol Dağıtımı| B(🧠 Merkezi State);
     
-    B --> C[🔍 3. Keşfet & Filtrele]
-    C -->|Kategori / Arama / Sıralama| D[🗺️ 4. Destinasyon Detayı]
+    B --> C[🏠 Keşif Ekranı];
+    C -->|Filtreleme / Sıralama| D[📄 Destinasyon Detay];
     
-    D -->|Fallback Harita Sistemi| D1[🌐 WebEngine / Leaflet]
-    D -->|İnternet/Kütüphane Yoksa| D2[🎨 QPainter 2D Çizim]
+    D --> E{🌐 Harita Motoru};
+    E -->|WebEngine Aktif| F[🗺️ Canlı Leaflet Harita];
+    E -->|WebEngine Eksik| G[🎨 2D Fallback Çizim];
     
-    D -->|💰 Akıllı Fiyat Hesaplama| E[🛒 5. Rezervasyon Yap]
-    E -->|Kayıt Oluşturuldu| F[🧳 Rezervasyonlarım Sayfası]
-    
-    B -->|Sadece Yetkili Girişi| G[📊 6. Admin Yönetim Paneli]
-    G -->|İstatistik & Destek| G1[🎫 Gelen Biletleri Yönet]
+    D --> H[💰 Dinamik Fiyat Hesaplama];
+    H -->|Rezervasyon Onay| I[🗃️ Rezervasyonlarım];
 
-    %% Sınıf Atamaları
-    class A login;
-    class B brain;
-    class C,F core;
-    class D,D1,D2 detail;
-    class E action;
-    class G,G1 admin;
+    class A,B gate;
+    class C,D,I core;
+    class E,F,G map;
+    class H calc;
