@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Yemek Tarif Platformu - Gelişmiş PyQt5 Uygulaması
-Admin ve Kullanıcı Paneli + Gece/Gündüz Modu
-Corelytics-style Modern Dashboard UI
-"""
-
 import sys
 import hashlib
 import random
