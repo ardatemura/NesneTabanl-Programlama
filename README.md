@@ -42,6 +42,14 @@
 
 * [🍳 Yemek Tarifi Uygulaması ](./yemek/README.md)
 
+# Kullanılan Kütüphaneler :
+```bash
+# 1. Temel Arayüz ve Grafik Bileşenleri
+pip install PyQt5 PyQtWebEngine PyQtChart
+
+# 2. PDF Fatura ve Coğrafi Konum Kütüphaneleri
+pip install reportlab geocoder matplotlib
+```
 
 
 
