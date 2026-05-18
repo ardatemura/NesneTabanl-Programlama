@@ -20,13 +20,13 @@
 ### 🔒 Güvenlik ve Rol Tabanlı Kullanıcı Yönetimi
 * **Çoklu Kullanıcı Desteği:** Misafir , Standart Kullanıcı  ve Yönetici  olmak üzere 3 farklı rol tabanlı erişim kontrolü.
 * **Dahili Destek Sistemi :** Kullanıcıların uygulama içerisinden sorun bildirebileceği veya yardım talep edebileceği biletleme altyapısı.
-* * [🍳 Tarif ve Kategori Yönetimi](./seyyehat/README1.md)
+* * [ 🌍 Seyehat Planlama Uygulaması](./seyyehat/README1.md)
   
  ## 🍽 Yemek Tarifi Uygulaması
  #### Kullancıları yeni yemek tarifleri öğrennmek veya paylaşmaları için versatil , kolayar arayüzlü tarif paylaşma uygulaması .
  ## 🚀 Özellikler 
 
-### 🍳 Tarif ve Kategori Yönetimi
+### 🍳 Yemek Tarifi Uygulaması
 * **Geniş Tarif Veritabanı:** Farklı mutfak kültürlerinden  onlarca hazır ve detaylı yemek tarifi altyapısı.
 * **Malzeme ve Hazırlanış Detayları:** Her tarif için dinamik malzeme listesi , adım adım hazırlık aşamaları ve porsiyon bilgisi.
 * **Puanlama ve Yorum Sistemi:** Kullanıcıların tariflere 1-5 arası yıldız vermesini ve topluluk yorumları eklemesini sağlayan interaktif yapı.
@@ -40,7 +40,7 @@
 * **Admin Kontrol Paneli:** Yöneticiler için yeni tarif ekleme, mevcut tarifleri düzenleme, silme ve kullanıcı yorumlarını/puanlarını denetleme paneli.
 * **Güvenli Şifreleme:** Kullanıcı hesap güvenliği için şifrelerin `SHA-256` algoritması ile karma  yöntemiyle saklanması.
 
-* [🍳 Tarif ve Kategori Yönetimi](./yemek/README.md)
+* [🍳 Yemek Tarifi Uygulaması ](./yemek/README.md)
 
 
 
