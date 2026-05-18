@@ -20,6 +20,7 @@
 ### 🔒 Güvenlik ve Rol Tabanlı Kullanıcı Yönetimi
 * **Çoklu Kullanıcı Desteği:** Misafir , Standart Kullanıcı  ve Yönetici  olmak üzere 3 farklı rol tabanlı erişim kontrolü.
 * **Dahili Destek Sistemi :** Kullanıcıların uygulama içerisinden sorun bildirebileceği veya yardım talep edebileceği biletleme altyapısı.
+* * [🍳 Tarif ve Kategori Yönetimi](./seyyehat/README1.md)
   
  ## 🍽 Yemek Tarifi Uygulaması
  #### Kullancıları yeni yemek tarifleri öğrennmek veya paylaşmaları için versatil , kolayar arayüzlü tarif paylaşma uygulaması .
