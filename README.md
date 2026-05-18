@@ -20,7 +20,7 @@
 ### 🔒 Güvenlik ve Rol Tabanlı Kullanıcı Yönetimi
 * **Çoklu Kullanıcı Desteği:** Misafir , Standart Kullanıcı  ve Yönetici  olmak üzere 3 farklı rol tabanlı erişim kontrolü.
 * **Dahili Destek Sistemi :** Kullanıcıların uygulama içerisinden sorun bildirebileceği veya yardım talep edebileceği biletleme altyapısı.
-* * [ 🌍 Seyehat Planlama Uygulaması](./seyyehat/README1.md)
+* * [ 🌍 Seyehat Planlama Uygulaması](./Seyahat-Planlama-Uygulaması/)
   
  ## 🍽 Yemek Tarifi Uygulaması
  #### Kullancıları yeni yemek tarifleri öğrennmek veya paylaşmaları için versatil , kolayar arayüzlü tarif paylaşma uygulaması .
@@ -40,7 +40,7 @@
 * **Admin Kontrol Paneli:** Yöneticiler için yeni tarif ekleme, mevcut tarifleri düzenleme, silme ve kullanıcı yorumlarını/puanlarını denetleme paneli.
 * **Güvenli Şifreleme:** Kullanıcı hesap güvenliği için şifrelerin `SHA-256` algoritması ile karma  yöntemiyle saklanması.
 
-* [🍳 Yemek Tarifi Uygulaması ](./Yemek-Tarifi-Platformu-Uygulaması/README.md)
+* [🍳 Yemek Tarifi Uygulaması ](./Yemek-Tarifi-Platformu-Uygulaması/)
 
 # Kullanılan Kütüphaneler :
 ```bash
