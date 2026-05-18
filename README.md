@@ -1,8 +1,8 @@
-# 💻 Projeyelere Genel Bakış Sayehat Uygulaması & Yemek Tarifi Uygulaması
+# 💻 Projeyelere Genel Bakış Seyahat Uygulaması & Yemek Tarifi Uygulaması
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyQt5](https://img.shields.io/badge/PyQt5-GUI-green.svg)
 
- ## 🌍 Seyehat Planlama Uygulaması
+ ## 🌍 Seyahat Planlama Uygulaması
  #### Kullanıcılar seyahat  planı yapmalarına yardımcı olan destinasyon seçimi otel kullanıcı tercihlerine göre aktiviteler sunan aynı zamanda rezarvasyon yapbildikleri python tabanlı bir otomasyon uygulaması .
 
  ## 🚀 Özellikler 
