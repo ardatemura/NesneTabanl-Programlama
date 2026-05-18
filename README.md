@@ -39,7 +39,7 @@
 * **Admin Kontrol Paneli:** Yöneticiler için yeni tarif ekleme, mevcut tarifleri düzenleme, silme ve kullanıcı yorumlarını/puanlarını denetleme paneli.
 * **Güvenli Şifreleme:** Kullanıcı hesap güvenliği için şifrelerin `SHA-256` algoritması ile karma  yöntemiyle saklanması.
 
-* [🍳 Tarif ve Kategori Yönetimi](./seyyehat/README1.md)
+* [🍳 Tarif ve Kategori Yönetimi](./yemek/README.md)
 
 
 
